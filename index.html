@@ -55,7 +55,7 @@
         <li><a href="#about-me"> About</a></li>
         <li><a href="#work">Projects</a></li>
         <li><a href="#services">Services</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#contacts">Contact</a></li>
         <li><a href="https://ruthcyg.github.io/responsive-cv/">Hire Me</a></li>
         
         
@@ -308,7 +308,58 @@
 </section>
 -->
 
-<!----
+
+<!---Contact Forms-->
+<section id="contacts">
+
+
+<div id="overlay">
+  <div class="empty">
+    </div>
+<!--div class="container"-->
+
+                                            
+     
+  
+
+<form action="https://formsubmit.co/cc6a47129e48f1936507efe10c97e59a" 
+method="POST"  novalidate>
+
+    <h3 class="forms-h">GET IN TOUCH</h3>
+    <!--input
+    type="hidden"
+    name="_"
+    value="false"
+  -------/>---->
+  <input type="hidden" name="_next"
+  
+ value="https://ruthcyg.github.io/responsive-cv/">
+ <!--"https://ruthcyg.github.io/responsive-cv/-->
+ <input type="hidden" name="_captcha" value="false">
+    <label for="names">
+    <input type="text" id="names" placeholder="Your Name" required minlength="3"  required>
+    <span class="error" aria-live="polite"></span>
+  </label>
+    <label for="mail">
+    <input type="email" id="mail" name="mail" placeholder="Email id" required>
+    <span class="error" aria-live="polite"></span>
+    </label>
+ 
+    <label for="phon">
+    <input type="tel" id="phon" name="phon" placeholder="Phone no." required minlength="8" required>
+    <span class="error" aria-live="polite"></span>
+    </label>
+
+    
+    
+    <textarea id="message" id="messages" name="messages" rows="4" placeholder="Send us message" required minlength="10" required></textarea>
+    
+    <!--button type="submit">Send</button-->
+    <input type="submit" value="send"/>
+  </form>
+</div>
+</section>
+<!---- Contact
 <section id="contact">
 <form class="contact__form" action="">
 
@@ -320,7 +371,7 @@
 </form>
 </section>-->
 
-<section id="contacts">
+<!--section id="contacts">
 
 
 <div id="overlay">
@@ -349,7 +400,7 @@
   </form>
 </div>
 
-</section>
+</section --->
 
 
 <footer class="footer">
@@ -382,6 +433,7 @@
   </p>
 </footer>
 
+<!----
 
 <form novalidate; onsubmit="event.preventDefault()">
   <p>
@@ -401,7 +453,7 @@
   </p>
   <button class="success-1">Submit</button>
 </form>
-
+-->
  </main>
 <script src="app.js"></script>
 </body>
